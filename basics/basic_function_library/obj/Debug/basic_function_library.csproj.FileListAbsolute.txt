@@ -1,0 +1,6 @@
+C:\projects\csharp\basics\basic_function_library\bin\Debug\basic_function_library.dll
+C:\projects\csharp\basics\basic_function_library\bin\Debug\basic_function_library.pdb
+C:\projects\csharp\basics\basic_function_library\obj\Debug\basic_function_library.csprojAssemblyReference.cache
+C:\projects\csharp\basics\basic_function_library\obj\Debug\basic_function_library.csproj.CoreCompileInputs.cache
+C:\projects\csharp\basics\basic_function_library\obj\Debug\basic_function_library.dll
+C:\projects\csharp\basics\basic_function_library\obj\Debug\basic_function_library.pdb

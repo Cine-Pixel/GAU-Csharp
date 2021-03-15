@@ -1,0 +1,10 @@
+C:\projects\csharp\basics\basics\bin\Debug\basics.exe.config
+C:\projects\csharp\basics\basics\bin\Debug\basics.exe
+C:\projects\csharp\basics\basics\bin\Debug\basics.pdb
+C:\projects\csharp\basics\basics\obj\Debug\basics.csprojAssemblyReference.cache
+C:\projects\csharp\basics\basics\obj\Debug\basics.csproj.CoreCompileInputs.cache
+C:\projects\csharp\basics\basics\obj\Debug\basics.exe
+C:\projects\csharp\basics\basics\obj\Debug\basics.pdb
+C:\projects\csharp\basics\basics\bin\Debug\basic_function_library.dll
+C:\projects\csharp\basics\basics\bin\Debug\basic_function_library.pdb
+C:\projects\csharp\basics\basics\obj\Debug\basics.csproj.CopyComplete
