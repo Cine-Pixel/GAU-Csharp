@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Presentation1 {
     class Plane : Vehicle {
@@ -10,13 +6,21 @@ namespace Presentation1 {
         public string type;
 
         public override string ReturnInfo() {
-            return $"Plane: {model}; Brand: {Brand}; Type: {type}";
+            return $"Plane: {model}; Brand: {Brand}; Type: {type}; Serial number: {SerialNumber}";
         }
 
-        public Plane(string model, string type, string brand) {
+        public override string GetConditionInfo() {
+            return $"Current plane has {battary_level} of battary left, consumed {fuel_consunption} liters of fuel, engine condition is {engine_condition}";
+        }
+
+        public Plane(string model, string type, string brand, string sn, string fc, string ec, string bl) {
             this.model = model;
             this.type = type;
+            fuel_consunption = fc;
+            engine_condition = ec;
+            battary_level = bl;
             Brand = brand;
+            SerialNumber = sn;
         }
     }
 }

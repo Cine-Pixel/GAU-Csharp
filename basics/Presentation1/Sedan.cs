@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Presentation1 {
     class Sedan : Car {
@@ -16,7 +12,7 @@ namespace Presentation1 {
             numberOfDoors = 4;
         }
         
-        public Sedan(int nod, string model, string brand) : base(model, brand) {
+        public Sedan(int nod, string model, string brand, string fc, string ec, string bl) : base(model, brand, fc, ec, bl) {
             numberOfDoors = nod;
         }
     }
