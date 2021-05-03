@@ -1,5 +1,5 @@
 ﻿using System;
-using basic_function_library;
+using work1;
 
 namespace basics {
     class Program {

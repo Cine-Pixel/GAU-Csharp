@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\basic_function_library\basic_function_library.csproj">
+    <ProjectReference Include="..\basic_function_library\Work1_library.csproj">
       <Project>{07e4dded-b5e9-47d9-be20-7bf098e611b3}</Project>
-      <Name>basic_function_library</Name>
+      <Name>Work1_library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

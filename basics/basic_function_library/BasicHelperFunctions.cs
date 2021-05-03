@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace basic_function_library {
+namespace work1 {
     public class BasicHelperFunctions {
         public static double HeronsFormula(double a, double b, double c) {
             // task 2.1.10
