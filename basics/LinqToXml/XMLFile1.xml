@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productListing>
+	<product>
+		<name>Fedora</name>
+		<description>Fedora once worn by Abraham Lincoln</description>
+		<owner>Abraham Lincoln</owner>
+		<cost>399.23</cost>
+		<shipping>6.89</shipping>
+	</product>
+
+	<product>
+		<name>Fist US flag</name>
+		<description>First flag of United States</description>
+		<owner>George Washington</owner>
+		<cost>500.00</cost>
+		<shipping>10.90</shipping>
+	</product>
+
+	<product>
+		<name>Declaration of independence</name>
+		<description>Copy of declaration of independence signed by Thomas Jefferson</description>
+		<owner>Thomas Jefferson</owner>
+		<cost>12000.00</cost>
+		<shipping>20.00</shipping>
+	</product>
+
+	<product>
+		<name>Old Glasses</name>
+		<description>Glasses from 19th century</description>
+		<owner>Andrew Jackson</owner>
+		<cost>468.65</cost>
+		<shipping>5.15</shipping>
+	</product>
+
+	<product>
+		<name>Newer glasses</name>
+		<description>Just another piece of glasses</description>
+		<owner>Theodore Roosevelt</owner>
+		<cost>200.00</cost>
+		<shipping>10.90</shipping>
+	</product>
+
+	<product>
+		<name>Toupee</name>
+		<description>It's exactly what you think</description>
+		<owner>Donald Trump</owner>
+		<cost>0.15</cost>
+		<shipping>0.00</shipping>
+	</product>
+</productListing>

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using basic_function_library;
+using work1;
 
 namespace form_basics {
     public partial class Form1 : Form {
