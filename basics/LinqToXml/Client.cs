@@ -18,7 +18,6 @@ namespace LinqToXml {
                 var response = await client.PostAsync(url, new StringContent(data.ToString(), System.Text.Encoding.UTF8, "application/xml"));
                 var responseBody = await response.Content.ReadAsStringAsync();
                 XElement responseXml = XElement.Parse(responseBody);
-                Console.WriteLine(responseXml);
             } catch {
                 throw new Exception("Server error, try again later");
             }
@@ -29,12 +28,6 @@ namespace LinqToXml {
 
             IEnumerable<XElement> data = products.Descendants("object");
 
-            foreach (XElement product in data) {
-                IEnumerable<XElement> productFields = product.Descendants("field");
-                foreach(XElement field in productFields) {
-                    Console.WriteLine(field.Value);
-                }
-            }
             return data;
                 
         }

@@ -43,5 +43,13 @@ namespace LinqToXml {
             productsDisplay.Update();
             productsDisplay.Refresh();
         }
+
+        private void maxFilter_Click(object sender, EventArgs e) {
+            productsDisplay.DataSource = FormUtils.ApplyMaxFilter();
+        }
+
+        private void minFilter_Click(object sender, EventArgs e) {
+            productsDisplay.DataSource = FormUtils.ApplyMinFilter();
+        }
     }
 }

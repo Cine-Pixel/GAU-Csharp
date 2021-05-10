@@ -189,6 +189,7 @@ namespace LinqToXml {
             this.maxFilter.TabIndex = 6;
             this.maxFilter.Text = "Max";
             this.maxFilter.UseVisualStyleBackColor = true;
+            this.maxFilter.Click += new System.EventHandler(this.maxFilter_Click);
             // 
             // minFilter
             // 
@@ -198,6 +199,7 @@ namespace LinqToXml {
             this.minFilter.TabIndex = 6;
             this.minFilter.Text = "Min";
             this.minFilter.UseVisualStyleBackColor = true;
+            this.minFilter.Click += new System.EventHandler(this.minFilter_Click);
             // 
             // Form1
             // 
