@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StudentsList>
+  <Student>
+    <firstname>Nikola</firstname>
+    <lastname>Tesla</lastname>
+    <faculty>Engineering</faculty>
+    <tax>5000</tax>
+    <phone>995 54 902 234</phone>
+  </Student>
+  <Student>
+    <firstname>Albert</firstname>
+    <lastname>Einstein</lastname>
+    <faculty>Phisics</faculty>
+    <tax>12000</tax>
+    <phone>995 12 502 224</phone>
+  </Student>
+  <Student>
+    <firstname>Stephen</firstname>
+    <lastname>Hawking</lastname>
+    <faculty>Phisics</faculty>
+    <tax>8000</tax>
+    <phone>995 57 345 234</phone>
+  </Student>
+  <Student>
+    <firstname>Wilhelm</firstname>
+    <lastname>Wien</lastname>
+    <faculty>Radiology</faculty>
+    <tax>20000</tax>
+    <phone>995 90 234 845</phone>
+  </Student>
+  <Student>
+    <firstname>Geoffrey</firstname>
+    <lastname>Hinton</lastname>
+    <faculty>Psocology</faculty>
+    <tax>4000</tax>
+    <phone>995 89 234 765</phone>
+  </Student>
+  <Student>
+    <firstname>Timnit</firstname>
+    <lastname>Gebru</lastname>
+    <faculty>Computer Science</faculty>
+    <tax>15000</tax>
+    <phone>765 02 952 008</phone>
+  </Student>
+</StudentsList>
