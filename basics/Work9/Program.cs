@@ -12,9 +12,10 @@ namespace Work9 {
             int palindromeWords = 0;
             string parsedSentence = Regex.Replace(sentence.ToLower(), @"[^\w\s]", "");
 
-            foreach(string word in parsedSentence.Split(' ')) {
-                if (word.SequenceEqual(word.Reverse())) palindromeWords++;
-            }
+            palindromeWords = parsedSentence.Split(' ').Count(word => word.SequenceEqual(word.Reverse()));
+            //foreach(string word in parsedSentence.Split(' ')) {
+            //    if (word.SequenceEqual(word.Reverse())) palindromeWords++;
+            //}
 
             return palindromeWords;
         }
@@ -27,9 +28,10 @@ namespace Work9 {
             int almasWords = 0;
             string parsedSentence = Regex.Replace(sentence.ToLower(), @"[^\w\s]", "");
 
-            foreach(string word in parsedSentence.Split(' ')) {
-                if (word[0] == word[word.Length - 1]) almasWords++;
-            }
+            almasWords = parsedSentence.Split(' ').Count(word => word[0] == word[word.Length - 1]);
+            //foreach(string word in parsedSentence.Split(' ')) {
+            //    if (word[0] == word[word.Length - 1]) almasWords++;
+            //}
 
             return almasWords;
         }
