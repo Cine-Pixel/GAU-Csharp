@@ -54,13 +54,13 @@ namespace Work7 {
             Console.WriteLine();
 
 
-            bool areAllProductsUseless = products.All(pd => pd.Category == "useless");
+            bool areAllProductsUseless = products.All(pd => pd.Category.Equals("useless"));
             if (areAllProductsUseless) Console.WriteLine("All items are useles");
             else Console.WriteLine("Not all items are useless");
             Console.WriteLine();
 
 
-            bool areAnyMuseumItems = products.Any(pd => pd.Category == "Museum item");
+            bool areAnyMuseumItems = products.Any(pd => pd.Category.Equals("Museum item"));
             if (areAnyMuseumItems) Console.WriteLine("There are museum items as well");
             else Console.WriteLine("There are't any museum items");
             Console.WriteLine();
