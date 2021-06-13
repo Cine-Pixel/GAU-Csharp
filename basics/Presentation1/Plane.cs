@@ -5,14 +5,6 @@ namespace Presentation1 {
         public string model;
         public string type;
 
-        public override string ReturnInfo() {
-            return $"Plane: {model}; Brand: {Brand}; Type: {type}; Serial number: {SerialNumber}";
-        }
-
-        public override string GetConditionInfo() {
-            return $"Current plane has {battary_level} of battary left, consumed {fuel_consunption} liters of fuel, engine condition is {engine_condition}";
-        }
-
         public Plane(string model, string type, string brand, string sn, string fc, string ec, string bl) {
             this.model = model;
             this.type = type;
@@ -21,6 +13,14 @@ namespace Presentation1 {
             battary_level = bl;
             Brand = brand;
             SerialNumber = sn;
+        }
+
+        public override string ReturnInfo() {
+            return $"Plane: {model}; Brand: {Brand}; Type: {type}; Serial number: {SerialNumber}";
+        }
+
+        public override string GetConditionInfo() {
+            return $"Current plane has {battary_level} of battary left, consumed {fuel_consunption} liters of fuel, engine condition is {engine_condition}";
         }
     }
 }

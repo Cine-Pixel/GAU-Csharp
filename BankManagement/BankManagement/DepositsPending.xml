@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deposits>
+  <Deposit>
+    <Owner>041c0f4e-a398-4179-8601-4107e5571ad2</Owner>
+    <Amount>1000</Amount>
+    <Currency>USD</Currency>
+    <Percent>10</Percent>
+  </Deposit>
+</Deposits>

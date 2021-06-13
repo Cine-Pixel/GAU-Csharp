@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Loans>
+  <Loan>
+    <Owner>7c9e6679-7425-40de-944b-e07fc1f90ae7</Owner>
+    <CreatedAt>01/12/2020</CreatedAt>
+    <Amount>12000</Amount>
+    <Currency>USD</Currency>
+    <Percent>15</Percent>
+    <AmountLeft>12000</AmountLeft>
+    <Deadline>6</Deadline>
+    <Backer>0f8fad5b-d9cb-469f-a165-70867728950e</Backer>
+    <ApprovedBy>8bf40a39-1196-4301-85fe-6a9c84e55469</ApprovedBy>
+  </Loan>
+  <Loan>
+    <Owner>0f8fad5b-d9cb-469f-a165-70867728950e</Owner>
+    <CreatedAt>02/01/2021</CreatedAt>
+    <Amount>5000</Amount>
+    <Currency>EUR</Currency>
+    <Percent>5</Percent>
+    <AmountLeft>5250</AmountLeft>
+    <Deadline>12</Deadline>
+    <Backer>12345678900</Backer>
+    <ApprovedBy>8bf40a39-1196-4301-85fe-6a9c84e55469</ApprovedBy>
+  </Loan>
+</Loans>

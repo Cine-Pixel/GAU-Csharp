@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person role="manager">
+    <Guid>c10f074a-28a6-44f5-a333-188d889ed663</Guid>
+    <Firstname>Some</Firstname>
+    <Lastname>Mng</Lastname>
+    <Username>Manag</Username>
+    <Password>manager2</Password>
+    <Email>manager2@email.com</Email>
+    <Gender>Female</Gender>
+    <PersonalNumber>25550578345</PersonalNumber>
+    <BirthDate>05/05/1995</BirthDate>
+    <Country>Georgi</Country>
+    <City>Tbilisi</City>
+    <Phone>123012343</Phone>
+    <BackerGuid></BackerGuid>
+    <BackerRelationship></BackerRelationship>
+  </Person>
+  <Person role="user">
+    <Guid>0f8fad5b-d9cb-469f-a165-70867728950e</Guid>
+    <Firstname>Abraham</Firstname>
+    <Lastname>Lincoln</Lastname>
+    <Username>Abraham Lincoln</Username>
+    <Password>abraham</Password>
+    <Email>AL@email.com</Email>
+    <Gender>Male</Gender>
+    <PersonalNumber>28940578345</PersonalNumber>
+    <BirthDate>05/05/1989</BirthDate>
+    <Country>USA</Country>
+    <City>Arizona</City>
+    <Phone>123012903</Phone>
+    <BackerGuid>7c9e6679-7425-40de-944b-e07fc1f90ae7</BackerGuid>
+    <BackerRelationship>Friend</BackerRelationship>
+  </Person>
+  <Person role="user">
+    <Guid>7c9e6679-7425-40de-944b-e07fc1f90ae7</Guid>
+    <Firstname>Thomas</Firstname>
+    <Lastname>Jefferson</Lastname>
+    <Username>Thomas Jefferson</Username>
+    <Password>thomas</Password>
+    <Email>TJ@email.com</Email>
+    <Gender>Male</Gender>
+    <PersonalNumber>01239856478</PersonalNumber>
+    <BirthDate>05/05/1999</BirthDate>
+    <Country>USA</Country>
+    <City>Washington</City>
+    <Phone>542232422</Phone>
+    <BackerGuid>0f8fad5b-d9cb-469f-a165-70867728950e</BackerGuid>
+    <BackerRelationship>Friend</BackerRelationship>
+  </Person>
+  <Person role="user">
+    <Guid>888c48d7-f2b0-4fef-820d-6e245b13aee6</Guid>
+    <Username>new user</Username>
+    <Password>new</Password>
+    <Firstname>user</Firstname>
+    <Lastname>user</Lastname>
+    <Email>nu@email.com</Email>
+    <Gender />
+    <PersonalNumber>23456245678</PersonalNumber>
+    <BirthDate>2/10/1993 12:33:53 PM</BirthDate>
+    <Country></Country>
+    <City></City>
+    <Phone>45635678</Phone>
+    <BackerGuid />
+    <BackerRelationship />
+  </Person>
+  <Person role="user">
+    <Guid>78cbbccf-b97b-468a-90a3-223d3c71622c</Guid>
+    <Username>firstn lanem</Username>
+    <Password>firstn</Password>
+    <Firstname>hello</Firstname>
+    <Lastname>lanem</Lastname>
+    <Email>fn@email.com</Email>
+    <Gender />
+    <PersonalNumber>12312312312</PersonalNumber>
+    <BirthDate>6/13/1989 5:51:09 PM</BirthDate>
+    <Country>Georgia</Country>
+    <City>Tbilisi</City>
+    <Phone>8329822322</Phone>
+    <BackerGuid />
+    <BackerRelationship />
+  </Person>
+  <Person role="user">
+    <Guid>041c0f4e-a398-4179-8601-4107e5571ad2</Guid>
+    <Username>test test</Username>
+    <Password>test</Password>
+    <Firstname>hello</Firstname>
+    <Lastname>test</Lastname>
+    <Email>test@email.com</Email>
+    <Gender />
+    <PersonalNumber>12345678900</PersonalNumber>
+    <BirthDate>5/20/1999 8:32:51 PM</BirthDate>
+    <Country>Georgia</Country>
+    <City>Batumi</City>
+    <Phone>234223424</Phone>
+    <BackerGuid />
+    <BackerRelationship />
+  </Person>
+</Persons>

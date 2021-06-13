@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deposits>
+  <Deposit>
+    <Owner>7c9e6679-7425-40de-944b-e07fc1f90ae7</Owner>
+    <CreatedAt>0001-01-01T00:00:00</CreatedAt>
+    <Amount>500</Amount>
+    <Currency>GEL</Currency>
+    <Percent>5</Percent>
+    <ApprovedBy>8bf40a39-1196-4301-85fe-6a9c84e55469</ApprovedBy>
+  </Deposit>
+  <Deposit>
+    <Owner>888c48d7-f2b0-4fef-820d-6e245b13aee6</Owner>
+    <CreatedAt>0001-01-01T00:00:00</CreatedAt>
+    <Amount>1000</Amount>
+    <Currency>USD</Currency>
+    <Percent>5</Percent>
+    <ApprovedBy>8bf40a39-1196-4301-85fe-6a9c84e55469</ApprovedBy>
+  </Deposit>
+  <Deposit>
+    <Owner>888c48d7-f2b0-4fef-820d-6e245b13aee6</Owner>
+    <CreatedAt>0001-01-01T00:00:00</CreatedAt>
+    <Amount>200</Amount>
+    <Currency>USD</Currency>
+    <Percent>5</Percent>
+    <ApprovedBy>8bf40a39-1196-4301-85fe-6a9c84e55469</ApprovedBy>
+  </Deposit>
+  <Deposit>
+    <Owner>78cbbccf-b97b-468a-90a3-223d3c71622c</Owner>
+    <CreatedAt>2021-06-07T17:54:12.8256985+04:00</CreatedAt>
+    <Amount>900</Amount>
+    <Currency>EUR</Currency>
+    <Percent>10</Percent>
+    <ApprovedBy>8bf40a39-1196-4301-85fe-6a9c84e55469</ApprovedBy>
+  </Deposit>
+  <Deposit>
+    <Owner>041c0f4e-a398-4179-8601-4107e5571ad2</Owner>
+    <CreatedAt>2021-06-07T20:35:01.5435393+04:00</CreatedAt>
+    <Amount>1000</Amount>
+    <Currency>USD</Currency>
+    <Percent>10</Percent>
+    <ApprovedBy>8bf40a39-1196-4301-85fe-6a9c84e55469</ApprovedBy>
+  </Deposit>
+</Deposits>
